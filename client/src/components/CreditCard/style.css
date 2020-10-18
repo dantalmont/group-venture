@@ -1,0 +1,14 @@
+img.moneyBox {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.flow-text {
+    display: inline-block;
+    
+}
+
+.card-content {
+    text-align: center;
+}
