@@ -1,8 +1,11 @@
 # Group Venture
-An application that gives users an easy way to keep track of money lent and borrowed between friends especially for group outings.
+An application that gives users an easy way to keep track of money lent and borrowed between friends especially for group outings. Fill out the form to log the transaction. Money expected in and due are displayed on the dashboard.
 <br>
 <br>
-
+![Screen Shot 2020-10-19 at 2 01 26 AM](https://user-images.githubusercontent.com/62626932/96407337-25705580-11af-11eb-97c9-7780097fde8c.png)
+<br>
+<br>
+![Screen Shot 2020-10-19 at 2 01 02 AM](https://user-images.githubusercontent.com/62626932/96407430-59e41180-11af-11eb-943a-1693f9d99cd5.png)
 <br>
 
 ## Technologies
