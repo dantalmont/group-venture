@@ -15,10 +15,13 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
+const MONGODB_URI = "mongodb+srv://danTalmont:helloworld@groupventure.fw3ir.mongodb.net/GroupVenture?retryWrites=true&w=majority"
+
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/groupventure");
+mongoose.connect(MONGODB_URI || "mongodb://localhost/groupventure");
 
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
+
