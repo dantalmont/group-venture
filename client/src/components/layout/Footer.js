@@ -31,10 +31,10 @@ class Footer extends Component {
                                         <Icon icon={paypalIcon} width="40" height="40" style={{marginright: 80}}  />         
                                         </Link></span> 
                                         {''}{''}{''}
-                                    <span><Link to="https://www.paypal.com/us/home">
+                                    <span><Link to="https://www.cash.app/">
                                         <Icon icon={cashappIcon} width="40" height="40"  />         
                                         </Link></span>
-                                    <span><Link to="https://www.paypal.com/us/home">
+                                    <span><Link to="https://www.venmo.com/">
                                     <Icon icon={logoVenmo} width="45" />         
                                         </Link>
                                     </span>
