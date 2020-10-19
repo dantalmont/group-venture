@@ -2,7 +2,7 @@
 An application that gives users an easy way to keep track of money lent and borrowed between friends especially for group outings. Fill out the form to log the transaction. Money expected in and due are displayed on the dashboard.
 <br>
 <br>
-![Screen Shot 2020-10-19 at 2 01 26 AM](https://user-images.githubusercontent.com/62626932/96407337-25705580-11af-11eb-97c9-7780097fde8c.png)
+![Screen Shot 2020-10-19 at 2 19 13 PM](https://user-images.githubusercontent.com/62626932/96495690-28526100-1216-11eb-9d48-a7428f417043.png)
 <br>
 <br>
 ![Screen Shot 2020-10-19 at 2 01 02 AM](https://user-images.githubusercontent.com/62626932/96407430-59e41180-11af-11eb-943a-1693f9d99cd5.png)
