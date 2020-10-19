@@ -2,7 +2,12 @@ import React, { useState, useEffect } from "react";
 import API from "../utils/API";
 import CreditCard from "../components/CreditCard";
 import DebitCard from "../components/DebitCard";
-import { MaterialInput , Checkbox , FormBtn , Radio} from "../components/Form";
+import { MaterialInput, FormBtn } from "../components/Form";
+import { Checkbox } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControl from '@material-ui/core/FormControl';
 
 
 
@@ -66,6 +71,7 @@ function Dashhboard () {
             .catch(err => console.log(err));
     };
 
+
     function handleCheckbox(event){
         const { checked } = event.target; 
         if( checked === true){
@@ -121,14 +127,25 @@ function Dashhboard () {
                     <MaterialInput onChange={handleInputChange} name="name" placeholder="Lender/Borrower"/>
                     <MaterialInput onChange={handleInputChange} name="bill" placeholder="Amount"/>
                     <MaterialInput onChange={handleInputChange} name="date" placeholder="Date(MM/DD/YYYY)"/>
-                    <form action="checkStatus" id="checkboxId">
+                    {/* <form action="checkStatus" id="checkboxId">
                         <p>
                             <label>
                                 <input type="checkbox" onChange={handleCheckbox} name="status" value="false" />
                                 <span>Paid</span>
                             </label>
                         </p>
-                    </form>
+                    </form> */}
+                    <FormControl component="fieldset">
+                        <FormGroup aria-label="position" row>
+                            <FormControlLabel
+                            value="status"
+                            control={<Checkbox color="primary" />}
+                            label="Mark if Paid"
+                            labelPlacement="top"
+                            onChange={handleCheckbox}
+                            />
+                        </FormGroup>    
+                    </FormControl>
                     <span>
                     <FormBtn
                     onClick={handleFormSubmit}
