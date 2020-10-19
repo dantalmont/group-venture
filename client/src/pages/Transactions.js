@@ -45,7 +45,7 @@ function Transactions () {
                 <tr key={item._id}> 
                     <td>{item.location}</td>
                     <td>{item.name}</td>
-                    <td>{item.bill}</td>
+                    <td>${item.bill}</td>
                     <td>{item.date}</td>
                     <td>{item.status}</td>
                     <td><DeleteBtn onClick={() => deleteTransaction(item._id)}/></td>

@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 
+
 class Navbar extends Component {
     render() {
         return (
-            <div>
-               <nav>
-                    <div class="nav-wrapper">
-                        <Link class="brand-logo" to="/">Group Venture &#x029CE; &#x02A38;</Link>
+               <nav class="navbar">
+                    <div class="nav-wrapper purple darken-2">
+                        <Link class="brand-logo" to="/">Group Venture &#x029CE;</Link>
                         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
                             <li>
@@ -36,7 +36,6 @@ class Navbar extends Component {
                         </ul>
                     </div>
                 </nav> 
-            </div>
         );
     }
 }
